@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Chort and retention' inline='true' name='federated.0n3diow0la6e8m142ctqc0wsbzl5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Chort and retention' name='textscan.172lv8a1v8r6d5158n17e0a42djj'>
+            <connection class='textscan' directory='C:/Users/damur/Desktop/Turing/Tableu' filename='Chort and retention.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.172lv8a1v8r6d5158n17e0a42djj' name='Chort and retention.csv' table='[Chort and retention#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='Cohort_Date' ordinal='0' />
+            <column datatype='integer' name='Week0' ordinal='1' />
+            <column datatype='integer' name='Week1' ordinal='2' />
+            <column datatype='integer' name='Week2' ordinal='3' />
+            <column datatype='integer' name='Week3' ordinal='4' />
+            <column datatype='integer' name='Week4' ordinal='5' />
+            <column datatype='integer' name='Week5' ordinal='6' />
+            <column datatype='integer' name='Week6' ordinal='7' />
+            <column datatype='real' name='Week0_Retention' ordinal='8' />
+            <column datatype='real' name='Week1_Retention' ordinal='9' />
+            <column datatype='real' name='Week2_Retention' ordinal='10' />
+            <column datatype='real' name='Week3_Retention' ordinal='11' />
+            <column datatype='real' name='Week4_Retention' ordinal='12' />
+            <column datatype='real' name='Week5_Retention' ordinal='13' />
+            <column datatype='real' name='Week6_Retention' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cohort_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Cohort_Date]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Cohort_Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week0]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week1]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week2]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week3]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week3</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week4]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week4</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week5]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week5</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Week6]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week6</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week0_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week0_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week0_Retention</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week1_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week1_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week1_Retention</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week2_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week2_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week2_Retention</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week3_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week3_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week3_Retention</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week4_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week4_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week4_Retention</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week5_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week5_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week5_Retention</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week6_Retention</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Week6_Retention]</local-name>
+            <parent-name>[Chort and retention.csv]</parent-name>
+            <remote-alias>Week6_Retention</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cohort Date' datatype='date' name='[Cohort_Date]' role='dimension' type='ordinal' />
+      <column caption='Cohort' datatype='integer' name='[Week0]' role='dimension' type='quantitative' />
+      <column caption='Week0 Retention' datatype='real' name='[Week0_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week1]' role='dimension' type='quantitative' />
+      <column caption='Week1 Retention' datatype='real' name='[Week1_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week2]' role='dimension' type='quantitative' />
+      <column caption='Week2 Retention' datatype='real' name='[Week2_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week3]' role='dimension' type='quantitative' />
+      <column caption='Week3 Retention' datatype='real' name='[Week3_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week4]' role='dimension' type='quantitative' />
+      <column caption='Week4 Retention' datatype='real' name='[Week4_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week5]' role='dimension' type='quantitative' />
+      <column caption='Week5 Retention' datatype='real' name='[Week5_Retention]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Week6]' role='dimension' type='quantitative' />
+      <column caption='Week6 Retention' datatype='real' name='[Week6_Retention]' role='dimension' type='quantitative' />
+      <column caption='Chort and retention.csv' datatype='table' name='[__tableau_internal_object_id__].[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/damur/AppData/Local/Temp/TableauTemp/#TableauTemp_0g431271k3pztr1f97y571o2a86a.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/16/2025 08:02:34 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Cohort_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Cohort_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cohort_Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week0</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week0]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week0</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week1</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week2</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week3</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week4</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week5</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Week6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week6</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week0_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week0_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week0_Retention</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week1_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week1_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week1_Retention</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week2_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week2_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week2_Retention</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week3_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week3_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week3_Retention</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week4_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week4_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week4_Retention</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week5_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week5_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week5_Retention</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Week6_Retention</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Week6_Retention]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Week6_Retention</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Chort and retention.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Azerbaijan&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Chort and retention.csv' id='Chort and retention.csv_F7B13DB7726E43F7B467999EB7010F68'>
+            <properties context=''>
+              <relation connection='textscan.172lv8a1v8r6d5158n17e0a42djj' name='Chort and retention.csv' table='[Chort and retention#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='Cohort_Date' ordinal='0' />
+                  <column datatype='integer' name='Week0' ordinal='1' />
+                  <column datatype='integer' name='Week1' ordinal='2' />
+                  <column datatype='integer' name='Week2' ordinal='3' />
+                  <column datatype='integer' name='Week3' ordinal='4' />
+                  <column datatype='integer' name='Week4' ordinal='5' />
+                  <column datatype='integer' name='Week5' ordinal='6' />
+                  <column datatype='integer' name='Week6' ordinal='7' />
+                  <column datatype='real' name='Week0_Retention' ordinal='8' />
+                  <column datatype='real' name='Week1_Retention' ordinal='9' />
+                  <column datatype='real' name='Week2_Retention' ordinal='10' />
+                  <column datatype='real' name='Week3_Retention' ordinal='11' />
+                  <column datatype='real' name='Week4_Retention' ordinal='12' />
+                  <column datatype='real' name='Week5_Retention' ordinal='13' />
+                  <column datatype='real' name='Week6_Retention' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Active Chort'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt; by Weeks</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Chort and retention' name='federated.0n3diow0la6e8m142ctqc0wsbzl5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0n3diow0la6e8m142ctqc0wsbzl5'>
+            <column caption='Cohort Date' datatype='date' name='[Cohort_Date]' role='dimension' type='ordinal' />
+            <column caption='Cohort' datatype='integer' name='[Week0]' role='dimension' type='quantitative' />
+            <column-instance column='[Week0]' derivation='None' name='[none:Week0:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cohort_Date]' derivation='Week-Trunc' name='[twk:Cohort_Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8cd17d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0n3diow0la6e8m142ctqc0wsbzl5].[none:Week0:qk]</rows>
+        <cols>[federated.0n3diow0la6e8m142ctqc0wsbzl5].[twk:Cohort_Date:qk]</cols>
+      </table>
+      <simple-id uuid='{D0E64FDC-9E2C-4034-9AB5-8C72AD87C191}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='560' maxwidth='1150' minheight='560' minwidth='1150' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97142' id='3' name='Active Chort' w='98608' x='696' y='1429'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97142' id='5' param='vert' type-v2='layout-flow' w='98608' x='696' y='1429'>
+                <zone fixed-size='280' h='97142' id='3' is-fixed='true' name='Active Chort' w='98608' x='696' y='1429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{985FCFDD-22E0-4B9A-AB50-B16AE10EB9F1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Active Chort'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0n3diow0la6e8m142ctqc0wsbzl5].[none:Week0:qk]</field>
+            <field>[federated.0n3diow0la6e8m142ctqc0wsbzl5].[none:Week0_Retention:qk]</field>
+            <field>[federated.0n3diow0la6e8m142ctqc0wsbzl5].[yr:Cohort_Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5D700A85-33F2-4954-9B19-E1EB6143848F}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Active Chort'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B4F76F4A-B596-4C97-928E-B03153386424}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Active Chort' width='192'>
+      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
+      DziMAyMj0IlqAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      NbT/D86vVwPddhD3AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
