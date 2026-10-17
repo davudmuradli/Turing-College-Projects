@@ -111,7 +111,7 @@ ORDER BY event_order;
 | begin_checkout | 4,310 (3.68%) | 878 (3.50%) | 764 (3.81%) |
 | purchase | 1,942 (1.66%) | 406 (1.62%) | 355 (1.77%) |
 
-![Funnel by country](images/funnel_by_country.png)
+![Funnel by country](images/funnel1.png)
 
 ### Funnel by Device
 
@@ -123,7 +123,7 @@ ORDER BY event_order;
 | add_payment_info | 2,387 (2.21%) | 3,352 (2.13%) |
 | purchase | 1,851 (1.71%) | 2,541 (1.62%) |
 
-![Funnel by device](images/funnel_by_device.png)
+![Funnel by device](images/funnel2.png)
 
 ---
 
