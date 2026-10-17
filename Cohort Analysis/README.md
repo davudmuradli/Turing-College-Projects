@@ -40,13 +40,13 @@ The analysis was based on the `turing_data_analytics.subscriptions` table and as
 
 ### Cohort Table: Active Users and Retention by Week
 
-![Cohort retention table](images/cohort_retention_table.png)
+![Cohort retention table](images/cohort.png)
 
 The table shows the number of active users for each weekly cohort (left) and the corresponding retention percentage (right). Colors go from red (low) to green (high) to make comparisons easier.
 
 ### Cohort Size Over Time
 
-![Active cohort by weeks](images/active_cohort_by_weeks.png)
+![Active cohort by weeks](images/cohort2.png)
 
 The line chart shows how many new subscribers joined each weekly cohort.
 
