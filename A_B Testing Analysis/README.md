@@ -8,6 +8,11 @@ The dataset contains weekly sales per location and promotion.
 
 ---
 
+## Skills
+
+### SQL, Google Sheets/Excel, A/B Analysis
+---
+
 ## Goal
 
 The goal of this A/B test is to determine **which promotion drives the highest weekly sales**.
@@ -37,6 +42,13 @@ A summary of the resulting group-level statistics is shown below:
 | 2 | 47 | 47.33 | 14.50 | 27.84 | 83.16 |
 | 3 | 47 | 55.36 | 16.38 | 31.19 | 88.58 |
 
+![Barchart](images/Promotions_barchart.png)
+<img src="images/confidence_interval_2.png" alt="Promotion 1 vs Promotion 2" width="600">
+<img src="images/confidence_interval_1.png" alt="Promotion 1 vs Promotion 3" width="600">
+<img src="images/confidence_interval_3.png" alt="Promotion 2 vs Promotion 3" width="600">
+
+
+ 
  **Detailed queries and results:** [Google Sheets Link](https://docs.google.com/spreadsheets/d/1PHraqD-eotsRizcSkOxxr97iwzRxGl9ifeh12n2UETM/edit?usp=sharing)
 
 ---
