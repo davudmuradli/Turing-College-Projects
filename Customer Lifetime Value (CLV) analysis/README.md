@@ -50,8 +50,6 @@ The analysis uses one year of transactions, from 2010-12-01 to 2011-12-01. Recen
 
 ## SQL
 
-[Insert your final query here, or link to the file.]
-
 ```sql
 -- RFM values, quartiles, scores, and segments
 WITH
@@ -127,13 +125,13 @@ Limit 50;
 
 ### Dashboard Overview
 
-![RFM dashboard overview](images/rfm_dashboard_overview.png)
+![RFM dashboard overview](images/rfm1.png)
 
 The dashboard shows **4,331 customers** and **total revenue of about $7.96M**. Best Customers are the largest group by count and by far the largest by revenue.
 
 ### Recency vs. Orders
 
-![Recency vs orders](images/rfm_recency_scatter.png)
+![Recency vs orders](images/rfm2.png)
 
 Each bubble is a customer. Most high-order customers cluster at low recency, meaning they bought recently. Customers with recency beyond the median (about 50 days) have few orders, and many have not bought in over 200 days.
 
