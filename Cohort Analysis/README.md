@@ -67,19 +67,19 @@ The line chart shows how many subscribers joined each weekly cohort. The peak wa
 
 ### 3. ARPU by Cohort and Week
 
-![ARPU by cohort](images/arpu_by_cohort.png)
+![ARPU by cohort](images/cohort4.png)
 
 Average revenue per user for each cohort and week. Week 0 averages **$0.86** across cohorts, and it falls to **$0.20** in Week 1 and **$0.13** in Week 2.
 
 ### 4. Cumulative ARPU by Cohort
 
-![Cumulative ARPU by cohort](images/cumulative_arpu_by_cohort.png)
+![Cumulative ARPU by cohort](images/cohort5.png)
 
 Running total of ARPU for each cohort. The bottom row shows the average across cohorts for each week, and the growth row shows the week-over-week increase in that average.
 
 ### 5. LTV by Cohort
 
-![LTV by cohort](images/ltv_by_cohort.png)
+![LTV by cohort](images/cohort3.png)
 
 Cumulative ARPU to date for each cohort. The newest cohorts have fewer weeks of data, so the overall LTV average (**$1.47**) mixes cohorts of different ages.
 
