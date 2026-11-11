@@ -23,4 +23,3 @@ The project demonstrates practical data cleaning, exploratory analysis, and visu
 - Seaborn
 - Plotly
 
-### Link for notebook in Kaggle https://www.kaggle.com/code/damur326/coursera-course-project
